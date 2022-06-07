@@ -21,6 +21,7 @@ func (t *T) M() {
 func main() {
 	var i I
 
+	// 型がある
 	var t *T
 	i = t
 	describe(i)
